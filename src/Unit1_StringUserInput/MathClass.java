@@ -11,7 +11,12 @@ package Unit1_StringUserInput;
  */
 public class MathClass {
     public static void main(String[] args) {
+        
         double radius = 4;
+        
+        //uses the PI constant of the Math class
+        //Uses the .pow() method that raises the first value
+        //to the second value in the parantheses
         double circleArea = Math.PI * Math.pow(radius, 2);
         
         
