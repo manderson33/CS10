@@ -16,10 +16,15 @@ public class UserInput {
         
         Scanner input = new Scanner(System.in);
         
-        System.out.print("Enter a number: ");
-        int num = input.nextInt();
+        System.out.print("Enter length: ");
+        int length = input.nextInt();
         
-        System.out.println("You entered: " + num);
+        System.out.print("Enter width: ");
+        int width = input.nextInt();
+        
+        int area = length * width;
+        
+        System.out.println("Area " + area);
         
     }
 }
