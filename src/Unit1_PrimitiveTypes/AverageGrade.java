@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  * Testing for clone
+ * Another testing for cloning
  */
 package Unit1_PrimitiveTypes;
 
@@ -12,6 +13,8 @@ package Unit1_PrimitiveTypes;
  */
 public class AverageGrade {
     public static void main(String[] args) {
+        
+        double x = 12; //only for cloning test
         
         double mGrade = 89.2;
         double pGrade = 67.3, lGrade = 88.0;
